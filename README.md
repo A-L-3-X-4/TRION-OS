@@ -132,6 +132,7 @@ Windows personality:
 - stdio is unbuffered, there's no `scanf`, and `%e` and `%g` print like `%f`.
 - No 32-bit images, no time zones (local time is UTC), no console input.
 Drivers are compiled into the kernel. There's no PnP, no power management and no driver image loader.
+- Mach executeables aren't actually supported yet
  
 ## Where it's going
  
